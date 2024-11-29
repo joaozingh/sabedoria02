@@ -1,6 +1,8 @@
 public class Perguntas {
-    public static void main(String[] args) {
+public static void main(String[] args) {
+
         int cont = 0;
+
 
         // Primeira pergunta
         Questao p1 = new Questao();
@@ -9,12 +11,12 @@ public class Perguntas {
         p1.opcaoB = "B - Tank";
         p1.opcaoC = "C - Iron";
         p1.opcaoD = "D - Tuks";
-        p1.opcaoE = "E - Kaisel";
+       p1.opcaoE = "E - Kaisel";
         p1.correta = "A";
         p1.escrevaQuestao();
         String resposta = p1.leiaResposta();
         if (p1.isCorreta(resposta)) {
-            cont++;
+         cont++;
         }
 
         // Segunda pergunta
@@ -29,7 +31,7 @@ public class Perguntas {
         p2.escrevaQuestao();
         resposta = p2.leiaResposta();
         if (p2.isCorreta(resposta)) {
-            cont++;
+         cont++;
         }
 
         // Terceira pergunta
@@ -44,7 +46,7 @@ public class Perguntas {
         p3.escrevaQuestao();
         resposta = p3.leiaResposta();
         if (p3.isCorreta(resposta)) {
-            cont++;
+         cont++;
         }
 
         // Quarta pergunta
@@ -59,7 +61,7 @@ public class Perguntas {
         p4.escrevaQuestao();
         resposta = p4.leiaResposta();
         if (p4.isCorreta(resposta)) {
-            cont++;
+         cont++;
         }
 
         // Quinta pergunta
@@ -74,7 +76,7 @@ public class Perguntas {
         p5.escrevaQuestao();
         resposta = p5.leiaResposta();
         if (p5.isCorreta(resposta)) {
-            cont++;
+         cont++;
         }
 
         // Sexta pergunta
@@ -89,7 +91,7 @@ public class Perguntas {
         p6.escrevaQuestao();
         resposta = p6.leiaResposta();
         if (p6.isCorreta(resposta)) {
-            cont++;
+         cont++;
         }
 
         // Sétima pergunta
@@ -104,7 +106,7 @@ public class Perguntas {
         p7.escrevaQuestao();
         resposta = p7.leiaResposta();
         if (p7.isCorreta(resposta)) {
-            cont++;
+         cont++;
         }
 
         // Oitava pergunta
@@ -119,7 +121,7 @@ public class Perguntas {
         p8.escrevaQuestao();
         resposta = p8.leiaResposta();
         if (p8.isCorreta(resposta)) {
-            cont++;
+         cont++;
         }
 
         // Nona pergunta
@@ -134,7 +136,7 @@ public class Perguntas {
         p9.escrevaQuestao();
         resposta = p9.leiaResposta();
         if (p9.isCorreta(resposta)) {
-            cont++;
+         cont++;
         }
 
         // Décima pergunta
@@ -149,7 +151,7 @@ public class Perguntas {
         p10.escrevaQuestao();
         resposta = p10.leiaResposta();
         if (p10.isCorreta(resposta)) {
-            cont++;
+         cont++;
         }
 
         // Décima primeira pergunta
@@ -164,7 +166,7 @@ public class Perguntas {
         p11.escrevaQuestao();
         resposta = p11.leiaResposta();
         if (p11.isCorreta(resposta)) {
-            cont++;
+         cont++;
         }
 
         // Décima segunda pergunta
@@ -179,7 +181,7 @@ public class Perguntas {
         p12.escrevaQuestao();
         resposta = p12.leiaResposta();
         if (p12.isCorreta(resposta)) {
-            cont++;
+         cont++;
         }
 
         // Décima terceira pergunta
@@ -194,7 +196,7 @@ public class Perguntas {
         p13.escrevaQuestao();
         resposta = p13.leiaResposta();
         if (p13.isCorreta(resposta)) {
-            cont++;
+         cont++;
         }
 
         // Décima quarta pergunta
@@ -209,7 +211,7 @@ public class Perguntas {
         p14.escrevaQuestao();
         resposta = p14.leiaResposta();
         if (p14.isCorreta(resposta)) {
-            cont++;
+         cont++;
         }
 
         // Décima quinta pergunta
@@ -224,13 +226,13 @@ public class Perguntas {
         p15.escrevaQuestao();
         resposta = p15.leiaResposta();
         if (p15.isCorreta(resposta)) {
-            cont++;
+         cont++;
         }
 
         // Cálculo da porcentagem
-        double porcentagem = ((double) cont / 15.0) * 100;
-        System.out.println("Você acertou " + porcentagem + "%");
-        System.out.println("De 15 questões, você acertou " + cont + ".");
+ double porcentagem = ((double) cont / 15.0) * 100;
+ System.out.println("Você acertou " + porcentagem + "%");
+ System.out.println("De 15 questões, você acertou " + cont + ".");
     }
 }
 

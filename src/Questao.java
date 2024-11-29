@@ -1,24 +1,24 @@
 import java.util.Scanner;
 
 // CLASSE PARA O TRABALHO
-class Questao {
-    public String opcaoE;
-    String pergunta = "Qual desses lugares nevam ?:";
-        String opcaoA = "xique-xique-Bahia";
-        String opcaoB = "Lagoa nova-Maranhão";
-        String opcaoC = "Ottawa-Canadá";
-        String opcaoD = "Goiânia-Góias";
-        String correta = "opcaoC";
+public class Questao {
+    String pergunta = "";
+        String opcaoA = "";
+        String opcaoB = "";
+        String opcaoC ="";
+        String opcaoD = "";
+        String opcaoE = "";
+        String correta = "";
 
         public boolean isCorreta(String resposta){
             if(resposta.equalsIgnoreCase(this.correta)){
                 System.out.println("Parabéns resposta Correta! - Letra: " + this.correta);
-                System.out.println("C");
+                System.out.println("");
                 return true;
             } else {
                 System.out.println("Resposta Errada!");
                 System.out.println("A opção correta é a letra: " + this.correta);
-                System.out.println("C");
+                System.out.println("");
                 return false;
             }
         }
@@ -38,7 +38,7 @@ class Questao {
                     resp.equalsIgnoreCase("D") || resp.equalsIgnoreCase("E")){
                 return true;
             }
-            System.out.println("Resposta inválida! Digite opção A, B, C ou D. ");
+            System.out.println("Resposta inválida! Digite opção A, B,C ,D ou E. ");
             System.out.println("tente de novo");
             return false;
         }
@@ -50,7 +50,9 @@ class Questao {
             System.out.println(this.opcaoB);
             System.out.println(this.opcaoC);
             System.out.println(this.opcaoD);
+            System.out.println(this.opcaoE);
             System.out.println();
         }
 
     }
+
